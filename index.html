@@ -15,6 +15,61 @@
 <link rel="stylesheet" href="css/style.css">
     <style type="text/css">
 
+ .btn-success {
+      background-color:#7cffcb;
+      background-image:linear-gradient(to right, rgba(55, 236, 186, 1), rgba(114, 175, 211, 1));
+      }
+      .btn-info {
+      background-color: #eec0c6;
+      background-image: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+      }
+      .btn-secondary {
+      background-color: #7f5a83;
+      background-image: linear-gradient(to right, rgba(106, 133, 182, 1), rgba(186, 200, 224, 1));
+      }
+      .btn-primary {
+      background-color: #2a2a72;
+      background-image: linear-gradient(to right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1));
+      }
+      .btn-warning {
+      background-color: #f8ceec;
+      background-image: linear-gradient(to right, rgba(94, 231, 223, 1), rgba(180, 144, 202, 1));
+      }
+      .btn- {
+      background-color: #b1bfd8;
+      background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
+      }
+      .btn-light {
+      background-color: #42378f;
+      background-image: linear-gradient(315deg, #758283 0%, #CAD5E2 74%);
+      }
+      .btn-danger {
+      background-color: #2a2a72;
+      background-image: (to right, rgba(166, 192, 254, 1), rgba(246, 128, 132, 1));
+      }
+            .btn-dark {
+      background-color: #2a2a72;
+      background-image: (to right, rgba(196, 113, 245, 1), rgba(250, 113, 205, 1));
+      }
+     
+      button{
+     
+      outline: none;
+      border:0px;
+      border-radius: 40px;
+   
+      margin:10px;
+      cursor: pointer;
+      color: #fff;
+      background-size: 280% 180%;
+      box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+      transition:all .4s ease-in-out;
+      border: 0px !important;
+      }
+      button:hover{
+      background-position: 90% 0;
+      transition: all .2s ease-in-out;
+      }
 
         .loader{
           position: fixed;
@@ -316,22 +371,32 @@ rel="stylesheet">
 </li>
 
 
+
+<li class=" my-auto mx-2 shadow ">
+<button type="button" class="btn btn-info   " onclick="LoadMarket()"> NFT Staking Market</button>
+</li>
+
+<!--
 <li class="nav-item dropdown no-arrow">
-   <a class="nav-link " href="#" id="LoadMarketID" role="button"
-   aria-haspopup="true" aria-expanded="false" onclick="LoadMarket()">
-   NFT Staking Market
+ <a class="nav-link " href="#" id="LoadMarketID" role="button"
+ aria-haspopup="true" aria-expanded="false" onclick="LoadMarket()">
+ NFT Staking Market
 
 </a>
 </li>
+-->
 
-
-<li class="nav-item dropdown no-arrow">
-   <a class="nav-link " href="#" id="CreateNFTButtonID" role="button"
-   aria-haspopup="true" aria-expanded="false" onclick="ShowCreateNFTCard()">
-   Create NFT Staking Project
+<li class="my-auto mx-2 shadow">
+<button type="button" class="btn btn-warning    " onclick="ShowCreateNFTCard()">Create NFT Staking Project</button>
+</li>
+<!--
+ <a class="nav-link " href="#" id="CreateNFTButtonID" role="button"
+ aria-haspopup="true" aria-expanded="false" onclick="ShowCreateNFTCard()">
+ Create NFT Staking Project
 
 </a>
-</li>
+
+-->
 
 
 
