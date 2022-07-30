@@ -17,5 +17,5 @@ send to deployer:0xC340E120f7388Da2Fdd398792cf55a934Fe7AFc3<br>
 leave message:https://github.com/AlgoNetwork/NFTBox-NFT-Staking-Market/issues<br>
 <br><br>
 Update:<br>
-Version 2.1:Fix bug,add multi language.<br>
+Version 1.0
 
