@@ -3,6 +3,9 @@ NFTBox is a NFT staking project market,you can stake your NFT get reward tokens,
 
 <img src="https://github.com/AlgoNetwork/NFTBox/blob/main/screen.png" alt="NFT Staking market">
 
+
+
+<br>Token contract and staking contract full control by owner.
 ### Support Blockchain
 
 Binance<img src="https://github.com/AlgoNetwork/NFTBox-NFT-Staking-Market/blob/main/img/56.png" width="25" height="25" alt="bnb"> <br>
