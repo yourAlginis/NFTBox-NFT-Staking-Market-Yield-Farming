@@ -28,3 +28,13 @@ Version 1.0
 
 Version 1.1
 add Cronos,Candle Chain.
+
+
+#### Buy Cryptocurrency:
+https://www.mimi.exchange/
+
+#### Token Airdop:
+https://github.com/AlgoNetwork/Bee-Sender-v2
+
+#### Create ERC20 Token:
+https://github.com/AlgoNetwork/TokenFactory/
